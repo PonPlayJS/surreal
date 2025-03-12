@@ -48,6 +48,8 @@ setup(
         "torchx==0.7.0"
         "tensorplex",
         "cloudwise>=0.1.1",
+        "Cython>=0.29.36",
+
     ],
     classifiers=[
         "Development Status :: 4 - Beta",
