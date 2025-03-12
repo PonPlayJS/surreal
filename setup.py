@@ -34,24 +34,20 @@ setup(
     install_requires=[
         "gym",
         "robosuite",
-        "mujoco-py<2.1,>=2.0",
-        "tabulate",
+        "mujoco-py<1.50.2,>=1.50.1",
+        "tabulate",         # duplicado eliminado
         "tensorflow",
         "tensorboardX",
-        "imageio",
+        "imageio",          # duplicado eliminado
         "pygame",
         "benedict",
         "nanolog",
         "psutil",
-        "tabulate",
-        "imageio",
         "caraml>=0.10.0",
         "symphony>=0.9.1",
-        "torchx==0.9",
+        "torchx==0.7.0"
         "tensorplex",
         "cloudwise>=0.1.1",
-        "Cython==0.27.2",
-        "numpy==1.11",
     ],
     classifiers=[
         "Development Status :: 4 - Beta",
